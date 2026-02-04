@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nevigation Drower Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<div> 
+    <div class="navigation">
+      <div class="userBx">
+        <div class="imgbx">
+            <img src="akhilesh.img.jpeg">
+        </div>
+    </div>
+        <p class="username">Alina smith </p>
+     </div>
+    <div class="menuToggle"></div>
+</div>
+    <ul class="menu"> 
+      <li><a href="#">my profile</a></li>
+      <li><a href="#">messages</a></li>
+      <li><a href="#">notification</a></li>
+      <li><a href="#">settings</a></li>
+      <li><a href="#">help & support</a></li>
+      <li><a href="#">logout</a></li>
+    </ul>               
+  </div>
+  <script>
+    let menuToggle = document.querySelector('.menuToggle');
+    let navigation = document.querySelector('.navigation');
+    menuToggle.oneclick = function(){
+        navigation.classList.toggle('active')
+    }
+  </script>
+</body>
+</html>
